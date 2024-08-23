@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="dashboard-sidebar">
+            <div class="sidebar-logo">
+                <img src='https://raw.githubusercontent.com/Maheshwarm-Shivani/Infinite-Tutelage-Assignment/f54a1dbbdbc63b256dd78b49795328d8995ccda9/src/assets/react.svg' alt='logo' />
+            </div>
+            <ul class="navigation-list">
+                <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+                <li><i class="fas fa-user"></i> CRM</li>
+                <li><i class="fas fa-briefcase"></i> MAM</li>
+                <li><i class="fas fa-chart-line"></i> PAMM</li>
+                <li><i class="fas fa-exchange-alt"></i> Trade</li>
+                <li><i class="fas fa-wallet"></i> Wallet</li>
+                <li><i class="fas fa-university"></i> Accounts</li>
+                <li><i class="fas fa-history"></i> History</li>
+            </ul>
+            <ul class="menu-options">
+                <li><i class="fas fa-bell"></i> Notifications</li>
+                <li><i class="fas fa-cog"></i> Settings</li>
+                <li><i class="fas fa-question-circle"></i> Help & Support</li>
+                <li><i class="fas fa-sign-out-alt"></i> Log Out</li>
+            </ul>
+            <div class="sidebar-user-info">
+                <div class="profile-container">
+                    <div>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1723970366/Frame_19_dajcfh.svg" alt="frame" />
+                    </div>
+                    <div>
+                        <p>Shyam Shakur</p>
+                        <small>shyam@shakur.com</small>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="dashboard-main-content">
+            <header class="main-header">
+                <h2>Dashboard</h2>
+                <div class="header-controls">
+                    <div class="search-container">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <i class="fas fa-bell notification-icon"></i>
+                </div>
+            </header>
+
+            <div class="dashboard-wrapper">
+                <div class="primary-section">
+                    <div class="quick-links">
+                        <h1 class="quick-links-title">Quick Links</h1>
+                        <div class="link-items">
+                            <div><i class="fas fa-hand-holding-usd"></i> Deposit</div>
+                            <div><i class="fas fa-money-bill-wave"></i> Withdraw</div>
+                            <div><i class="fas fa-cogs"></i> Settings</div>
+                            <div><i class="fas fa-user-check"></i> Verification</div>
+                            <div><i class="fas fa-gift"></i> Bonuses</div>
+                            <div><i class="fas fa-random"></i> MTS</div>
+                            <div><i class="fas fa-exchange-alt"></i> Transfer</div>
+                            <div><i class="fas fa-history"></i> History</div>
+                            <div><i class="fas fa-user-friends"></i> Partner</div>
+                            <div><i class="fas fa-chart-pie"></i> Analytics</div>
+                        </div>
+                    </div>
+                    <section class="overview-container">
+                        <div class="overview-header">
+                            <h2>Overview</h2>
+                            <button class="download-button"><i class="fas fa-download"></i> Download Report</button>
+                        </div>
+                        <div class="overview-controls">
+                            <button>Monthly</button>
+                            <button>Yearly</button>
+                        </div>
+                        <div class="chart-display">
+                            <img src="https://i.ibb.co/7t8ksTV/inf.jpg" alt="Chart Placeholder">
+                        </div>
+                    </section>
+                </div>
+                <div class="secondary-panel">
+                    <section class="trading-accounts-section">
+                        <h3 class="section-title">Trading Accounts</h3>
+                        <div class="account-item">
+                            <p class="account-name">Master Account</p>
+                            <p class="account-id"><span class="account-ticker">CTicker</span> #123456</p>
+                            <p class="account-balance">$0.00 USD</p>
+                        </div>
+                        <div class="account-item">
+                            <p class="account-name">Master Account</p>
+                            <p class="account-id"><span class="account-ticker">CTicker</span> #789012</p>
+                            <p class="account-balance">$0.00 USD</p>
+                        </div>
+                    </section>
+                    <section class="open-trades-section">
+                        <h3 class="section-title">Open Trades</h3>
+                        <div class="trade-item">
+                            <p class="trade-pair">EUR/USD</p>
+                            <p class="trade-positive">+56.00 USD</p>
+                        </div>
+                        <div class="trade-item">
+                            <p class="trade-pair">USD/JPY</p>
+                            <p class="trade-negative">-0.09 USD</p>
+                        </div>
+                        <div class="trade-item">
+                            <p class="trade-pair">GBP/USD</p>
+                            <p class="trade-negative">-0.01 USD</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
